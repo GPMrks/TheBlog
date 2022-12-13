@@ -1,0 +1,35 @@
+.big-card_container {
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #111111;
+    margin: 0rem 3rem;
+    padding: 1.5rem;
+}
+
+.big-card_container > a {
+    text-decoration: none;
+}
+
+.big-card_image > img {
+    width: 100%;
+}
+
+.big-card_date > p {
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: rgba(255,255,255,0.5);
+}
+
+.big-card_title > h1 {
+    font-size: 1.7rem;
+    margin-bottom: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.big-card_description > p {
+    color: rgba(255,255,255,0.5);
+}
+
