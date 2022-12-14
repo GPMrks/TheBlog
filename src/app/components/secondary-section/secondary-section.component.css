@@ -1,0 +1,11 @@
+.section_container {
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 4.5rem 0rem 3rem 4rem;
+}
+
+.subtitle {
+    color: #B8B8B8;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
