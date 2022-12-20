@@ -3,17 +3,16 @@ import { ActivatedRoute } from '@angular/router';
 import { dataFake } from 'src/app/data/dataFake';
 
 @Component({
-  selector: 'app-big-card',
-  templateUrl: './big-card.component.html',
-  styleUrls: ['./big-card.component.css']
+  selector: 'app-vertical-card',
+  templateUrl: './vertical-card.component.html',
+  styleUrls: ['./vertical-card.component.css']
 })
-export class BigCardComponent  implements OnInit{
+export class VerticalCardComponent implements OnInit {
   
-  @Input() id:string | null = "";
-  @Input() photoCover: string = "";
-  @Input() cardTitle: string = "";
-  @Input() cardDescription: string = "";
-  @Input() articleDate: string = "";
+  @Input() id: string | null = "";
+  @Input() photoCover:string = "";
+  @Input() articleDate:string = "";
+  @Input() articleTitle:string = "";
 
   constructor(private route: ActivatedRoute) {
 
@@ -30,8 +29,7 @@ export class BigCardComponent  implements OnInit{
     const result = dataFake.filter(article => article.id.toString() == id)[0]
 
     this.photoCover = result.photo;
-    this.cardTitle = result.title;
-    this.cardDescription = result.description;
+    this.articleTitle = result.title;
     this.articleDate = result.date;
 
   }

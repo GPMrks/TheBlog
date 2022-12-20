@@ -1,6 +1,6 @@
 .small-card_container {
     margin-top: 1.5rem;
-    margin-right: 4rem;
+    margin-right: 3rem;
 }
 
 .small-card_container > a {
@@ -22,17 +22,19 @@
 }
 
 .small-card_image > img {
-    width: 13rem;
+    width: 16rem;
     margin-right: 1.5rem;
 }
 
 .small-card_title {
-    font-size: 0.6rem;
+    font-size: 0.75rem;
+    text-align: left;
 }
 
 .small-card_date > p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     margin: 0.5rem 0;
-    font-weight: 300;
-    color: rgba(255,255,255,0.5);
+    font-weight: 500;
+    color: gray;
+    opacity: 0.5;
 }

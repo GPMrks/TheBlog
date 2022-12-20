@@ -10,6 +10,8 @@ import { SmallCardComponent } from './components/small-card/small-card.component
 import { HomeComponent } from './pages/home/home.component';
 import { MainAreaComponent } from './components/main-area/main-area.component';
 import { SecondarySectionComponent } from './components/secondary-section/secondary-section.component';
+import { VerticalCardComponent } from './components/vertical-card/vertical-card.component';
+import { ContentComponent } from './pages/content/content.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { SecondarySectionComponent } from './components/secondary-section/second
     SmallCardComponent,
     HomeComponent,
     MainAreaComponent,
-    SecondarySectionComponent
+    SecondarySectionComponent,
+    VerticalCardComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,
