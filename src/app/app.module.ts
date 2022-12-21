@@ -12,6 +12,7 @@ import { MainAreaComponent } from './components/main-area/main-area.component';
 import { SecondarySectionComponent } from './components/secondary-section/secondary-section.component';
 import { VerticalCardComponent } from './components/vertical-card/vertical-card.component';
 import { ContentComponent } from './pages/content/content.component';
+import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ContentComponent } from './pages/content/content.component';
     MainAreaComponent,
     SecondarySectionComponent,
     VerticalCardComponent,
-    ContentComponent
+    ContentComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
